@@ -1,0 +1,17 @@
+<suite name="LearningTestNG" parallel="tests">
+<test name="testA" allow-return-values="true">
+<classes>
+<class name="testcases.testA"/>
+</classes>
+</test>
+<test name="testB" allow-return-values="true">
+<classes>
+<class name="testcases.testB"/>
+</classes>
+</test>
+<test name="testC" allow-return-values="true">
+<classes>
+<class name="testcases.testC"/>
+</classes>
+</test>
+</suite>
